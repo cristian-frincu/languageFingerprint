@@ -4,7 +4,7 @@ def checkLanguage(language):
 	sampleStats={};
 	inputStats={};
 
-	with open('input2.csv', 'rb') as inputFile:
+	with open('languages/input2.csv', 'rb') as inputFile:
 		reader = csv.reader(inputFile)
 		for inputValue in reader:
 			inputStats[inputValue[0]]=inputValue[1];
@@ -31,4 +31,5 @@ def checkLanguage(language):
 
 print "English: {0}".format(checkLanguage("english")); 
 print "French: {0}".format(checkLanguage("french"));
-
+print "jScript: {0}".format(checkLanguage("jscript"));
+print "Python: {0}".format(checkLanguage("python"));

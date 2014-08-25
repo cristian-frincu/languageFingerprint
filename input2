@@ -1,13 +1,27 @@
-En arrivant dans la mer, leur impulsion s'amortit, les sables dont
-ils sont chargés se précipitent, les eaux deviennent moins profondes,
-les courants moins rapides, et ces torrents grossis par la fonte des
-neiges, voulant se jeter tous à-la-fois dans le bassin qui doit les
-recevoir, sont forcés de se répandre dans la campagne, de se diviser
-en une multitude de bras, et de former des marais. En avançant dans
-la mer, ces eaux qui chassent devant elles une masse de sables,
-trouvent deux obstacles, les courants opposés et le vent du midi,
-qui, parcourant dans toute sa longueur le bassin de l'Adriatique,
-abrité de trois côtés par d'assez hautes montagnes, a dû retenir,
-amonceler au fond du golfe, les terres que tant de fleuves ne cessent
-d'y apporter. Elles s'arrêtent nécessairement au point où les
-courants des fleuves se rencontrent.
+All,
+
+I've basic knowlege on understanding UNIX Shell Programming. Right now I need to write a script for the following requirement. Kindly help me or suggest me how to write a Shell script.
+
+I've 8 .csv files that are containing "Detail" records. Each file getting more than 1 million. Another eight files (.csv) are containing only one "Header" in each file. Now I want to MERGE these <Header> and <Detail> records in one file in the below format:
+
+tstVenkat1.csv
+This is Header Record
+This is Detail Record
+This is Detail Record
+.
+.
+.
+.
+tstVenkat8.csv
+This is Header Record
+This is Detail Record
+This is Detail Record
+
+For <Header> record the file naming convention as tst1Venkat.xml and for <Detail> records the file naming convention as tstVenkat1.xml
+
+From the above, want to send tst1Venkat.xml (ie., Detail records) to tstVenkat1.xml (ie., Header record containing here and it must be the first line in this file).
+
+Kindly help to write in a shell script. 
+
+Thank you!
+- Venkat
